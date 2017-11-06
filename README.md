@@ -8,6 +8,14 @@ This is very bare bones Sinatra modular application.
 
 `rackup`, `heroku local` or `foreman start`
  
+## Environment
+
+add a `.env` sample to the root, these values will be loaded into development/test environments. See `env.sample` for format.
+
+```
+YOUR_SECRET=UUDDLRLRBA
+```
+
  ## Models/Services
  
  No models/services (or ORM) are included, an empty `models` directory exists within `app`, this can be renamed as all directories within `app` are autoloaded.
