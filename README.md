@@ -35,6 +35,10 @@ class ApplicationController < Sinatra::Base
 end
 ```
 
+## Console
+
+run `racksh` to load a console with the application loaded in development environment.
+
 ## Tests
 
 `rspec` is included, along with a `support` directory that's autoloaded into test ENV.
